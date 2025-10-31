@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('colab/', include('colab.urls'))
+    path('colab/', include('colab.urls')),
+    path('', include('pagina_inicial.urls'))
 ]
