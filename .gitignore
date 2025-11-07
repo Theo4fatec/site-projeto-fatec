@@ -1,3 +1,6 @@
 db.sqlite3
 ambiente-virtual
 __pycache__
+.env
+EGA_KPIS_PROD.csv
+teste.py
