@@ -1,5 +1,5 @@
 """
-WSGI config for site-projeto-fatec project.
+WSGI config for site_projeto_fatec project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'site-projeto-fatec.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'site_projeto_fatec.settings')
 
 application = get_wsgi_application()
